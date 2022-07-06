@@ -1,0 +1,5 @@
+print('VÜCÜT KİTLE İNDEKSİ HESAPLAMA')
+kilo = float(input('Kilonuzu giriniz (kg cinsinden): '))
+boy = int(input('Boyunuzu giriniz (cm cinsinden): '))
+VKİ = kilo/((boy/100)**2)
+print('İşlem başaralı V.K.İ = ', VKİ)

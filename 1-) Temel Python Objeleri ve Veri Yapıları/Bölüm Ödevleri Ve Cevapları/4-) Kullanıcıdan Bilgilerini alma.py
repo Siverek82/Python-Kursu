@@ -1,0 +1,5 @@
+ad = input('ad: ')
+soyad = input('soyad: ')
+tlf = input('cep telefonu numarası: ')
+eposta = input('e-posta: ')
+print('Bilgiler alındı.\n ad: {}\n soyad: {}\n cep telefonu numarası: {}\n e-posta: {}'.format(ad, soyad, tlf, eposta))
